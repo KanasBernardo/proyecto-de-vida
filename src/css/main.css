@@ -885,6 +885,7 @@ _________________*/
 
     #autobiografia{
         background-position: -400px 0px;
+        justify-content: center;
     }
     .contImg{
         display: none;
