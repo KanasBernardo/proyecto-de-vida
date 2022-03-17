@@ -736,6 +736,9 @@ _________________*/
     #autobiografia{
         background-position: center left;
     }
+    #autobiografia p{
+        font-size: 15px;
+    }
     .contImg{
         display: none;
     }
