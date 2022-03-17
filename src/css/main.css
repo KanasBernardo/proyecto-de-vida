@@ -877,10 +877,17 @@ _________________*/
         background-color: rgba(0, 0, 0, 0.9);
     }
 
-    .infoAU p{
-        width: 99%;
-        margin: 0 auto;  
+    .infoAU{
+        width: 95%;
+        margin: 0 auto; 
+        justify-content: center;
+    }
+
+    .infoAU p{ 
         font-size: 12px;
+    }
+    .infoAU h2{
+        font-size: 18px;
     }
 
     #autobiografia{
