@@ -971,4 +971,27 @@ _________________*/
     #sucesos h2{
         font-size: 14px;
     }
+    #autobiografia p{
+        font-size: 10px;
+    }
+    #vision p{
+        font-size: 15px;
+    }
+    #mision p{
+        font-size: 15px;
+    }
+    .containerT h2{
+        font-size: 0.8rem;
+        position: relative;
+        display: inline-block;
+        padding: 0;
+        margin-bottom: 35px;
+    }
+    #metas h2{
+        font-size: 0.8rem;
+        position: relative;
+        display: inline-block;
+        padding: 0;
+        margin-bottom: 35px;
+    }
 }
