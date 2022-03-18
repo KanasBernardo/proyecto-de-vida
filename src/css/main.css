@@ -465,7 +465,15 @@ _________________*/
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+#foda2{
+    height: 100vh;
+    background-image: url(../img/img.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /*______________
    ARBOL GENIALOGICO
 _________________*/
