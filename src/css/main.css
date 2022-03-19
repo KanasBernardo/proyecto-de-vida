@@ -672,6 +672,15 @@ _________________*/
     padding: 0;
     margin-bottom: 40px;
 }
+
+#foda h2{
+    font-size: 1.1rem;
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
 /*-------------------SECCION RESPONSIVAS 1------------------*/
 @media screen and (max-width: 1621px){
     nav .link-hide{
