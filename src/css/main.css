@@ -801,22 +801,51 @@ _________________*/
         font-size: 18px;
     }
 }
-@media screen and (max-width: 1024px){
+
+/*------------PARA PANTALLAS DE 14 PL*/
+@media screen and (max-width: 1224px){
     #arbol{
         background-image: url(../img/new2.png);
         background-size: 100%;
     }
-    
-}
-@media screen and (max-width: 1185px){
-    .contImg{
-        display: none;
+
+    #nawal{
+        background-position: center left;
+        justify-content: center;
     }
+    #nawal p{
+        font-size: 12px;
+    }
+    #nawal h2{
+        font-size: 18px;
+    }
+    #autobiografia{
+        background-position: center left;
+        justify-content: center;
+    }
+    #autobiografia h2{
+        font-size: 18px;
+    }  
+    #autobiografia p{
+        font-size: 12px;
+    }  
 }
 
 @media screen and (max-width: 900px){
     .table tbody td:hover{
         font-size: 7px;
+    }
+    .contImg{
+        display: none;
+    }
+    .infoAU{
+        width: 95%;
+        margin: 0 auto;
+        color: white;
+        background-color: rgb(0,0,0,0.8);
+    }
+    #autobiografia{
+        background-position: center left;
     }
 }
 /*-------------------SECCION RESPONSIVAS 2------------------*/
