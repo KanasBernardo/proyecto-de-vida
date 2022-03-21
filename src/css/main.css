@@ -802,12 +802,15 @@ _________________*/
     }
 }
 @media screen and (max-width: 1024px){
-    #arbol{
+    body,html{
+        width: 100%;
         height: 100%;
+    }
+    #arbol{
         background-image: url(../img/new.png);
-        justify-content: center;
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;
     }
     
 }
