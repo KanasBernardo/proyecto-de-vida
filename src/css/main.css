@@ -801,14 +801,25 @@ _________________*/
         font-size: 18px;
     }
 }
-@media screen and (max-width: 900px){
-    .table tbody td:hover{
-        font-size: 7px;
+@media screen and (max-width: 1024px){
+    #arbol{
+        height: 120vh;
+        background-image: url(../img/new.png);
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
+    
 }
 @media screen and (max-width: 1185px){
     .contImg{
         display: none;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .table tbody td:hover{
+        font-size: 7px;
     }
 }
 /*-------------------SECCION RESPONSIVAS 2------------------*/
