@@ -803,12 +803,11 @@ _________________*/
 }
 @media screen and (max-width: 1024px){
     #arbol{
-        height: 120vh;
-        background-image: url(../img/new.png);
+        height: 110vh;
+        background-image: url(../img/new2.png);
         justify-content: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: fixed;
     }
     
 }
