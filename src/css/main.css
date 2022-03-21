@@ -808,6 +808,7 @@ _________________*/
         background-image: url(../img/new2.png);
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;
     }
     
 }
