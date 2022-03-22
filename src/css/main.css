@@ -681,6 +681,37 @@ _________________*/
     margin-bottom: 40px;
 }
 
+/*----------
+AUTORETRATO
+-----------*/
+#autoretrato{
+    display: flex;
+    background-image: url(../img/img2.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    text-align: center;
+}
+#autoretrato img{
+    padding: 30px;
+    background-color: rgb(0,0,0,0.8);
+    border-radius: 10px;
+}
+.contImgAU{
+    margin: auto;
+    display: block;
+}
+.contImgAU img{
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 6px 9px 13px rgb(4, 76, 78);
+    transition: all 0.3s ease;
+}
+.contImgAU img:hover{
+    box-shadow: 6px 9px 13px rgb(0, 247, 255);
+    transition: all 0.3s ease;
+}
+
 /*-------------------SECCION RESPONSIVAS 1------------------*/
 @media screen and (max-width: 1621px){
     nav .link-hide{
@@ -795,6 +826,13 @@ _________________*/
     }
     #sucesos h2{
         font-size: 18px;
+    }
+    .contImgAU img{
+        border-radius: 20px;
+        width: 35%;
+        overflow: hidden;
+        box-shadow: 6px 9px 13px rgb(4, 76, 78);
+        transition: all 0.3s ease;
     }
 }
 
@@ -1070,5 +1108,13 @@ _________________*/
         display: inline-block;
         padding: 0;
         margin-bottom: 35px;
+    }
+    
+    .contImgAU img{
+        border-radius: 20px;
+        width: 65%;
+        overflow: hidden;
+        box-shadow: 6px 9px 13px rgb(4, 76, 78);
+        transition: all 0.3s ease;
     }
 }
