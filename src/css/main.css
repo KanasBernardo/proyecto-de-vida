@@ -659,14 +659,7 @@ _________________*/
 }
 
 .containerT h2{
-    font-size: 1.5rem;
-    position: relative;
-    display: inline-block;
-    padding: 0;
-    margin-bottom: 40px;
-}
-#metas h2{
-    font-size: 1.1rem;
+    font-size: 1rem;
     position: relative;
     display: inline-block;
     padding: 0;
@@ -793,8 +786,8 @@ AUTORETRATO
         background-position: center center;
     }
     #arbol{
-        height: 90vh;
-        background-image: url(../img/new.png);
+        height: 105vh;
+        background-image: url(../img/new2.png);
         justify-content: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -809,7 +802,7 @@ AUTORETRATO
     }
 
     #nawal p{
-        font-size: 17px;
+        font-size: 14px;
     }
 
     .infoSU{
@@ -839,8 +832,11 @@ AUTORETRATO
 /*------------PARA PANTALLAS DE 14 PL*/
 @media screen and (max-width: 1224px){
     #arbol{
+        height: 90vh;
         background-image: url(../img/new2.png);
-        background-size: 100%;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     #nawal{
