@@ -830,7 +830,7 @@ AUTORETRATO
 }
 
 /*------------PARA PANTALLAS DE 14 PL*/
-@media screen and (max-width: 1224px){
+@media screen and (max-width: 1300px){
     #arbol{
         height: 108vh;
         background-image: url(../img/new2.png);
