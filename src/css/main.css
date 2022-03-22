@@ -859,6 +859,13 @@ AUTORETRATO
     #autobiografia p{
         font-size: 12px;
     }  
+    .contImgAU img{
+        border-radius: 20px;
+        width: 28%;
+        overflow: hidden;
+        box-shadow: 6px 9px 13px rgb(4, 76, 78);
+        transition: all 0.3s ease;
+    }
 }
 
 @media screen and (max-width: 900px){
