@@ -411,14 +411,6 @@ _________________*/
     overflow: hidden;
     box-shadow: 6px 9px 15px rgb(183, 0, 255);
 }
-/*-----------IMAGEN FINAL-----------------*/
-footer{
-    height: 600px;
-    background-image: url(../img/img6.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 /*______________
    LOGO
 _________________*/
@@ -703,6 +695,19 @@ AUTORETRATO
 .contImgAU img:hover{
     box-shadow: 6px 9px 13px rgb(0, 247, 255);
     transition: all 0.3s ease;
+}
+
+/*-----------PIE DE PAGINA-----------------*/
+footer{
+    height: 350px;
+    background-color: #2E9AC3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    font-family: cursive;
+    font-size: 18px;
 }
 
 /*-------------------SECCION RESPONSIVAS 1------------------*/
@@ -1119,5 +1124,14 @@ AUTORETRATO
         overflow: hidden;
         box-shadow: 6px 9px 13px rgb(4, 76, 78);
         transition: all 0.3s ease;
+    }
+    
+    footer{
+        height: auto;
+        padding: 20px;
+        font-size: 10px;
+    }
+    footer img{
+        width: 40%;
     }
 }
