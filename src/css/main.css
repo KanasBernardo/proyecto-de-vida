@@ -293,17 +293,7 @@ _________________*/
     background-repeat: no-repeat;
     background-size: cover;
 }
-.infoM{
-    line-height: 1.8;
-    padding: 40px;
-    width: 600px;
-    margin-right: 50px;
-    background-color: rgb(0,0,0,0.8);
-    color: white;
-}
-.infoM p{
-    font-size: 20px;
-}
+
 /*______________
    PARA LAS TABLAS DE METAS
 _________________*/
