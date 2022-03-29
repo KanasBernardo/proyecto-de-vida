@@ -1,4 +1,4 @@
-import "../js/index.js";
+import "../js/main.css";
 window.sr = ScrollReveal();
 
 sr.reveal('.navegacion', {
