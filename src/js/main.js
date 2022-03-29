@@ -1,4 +1,5 @@
 import "../css/main.css";
+import "../js/scrollreveal.js";
 
 const moreOptions = document.querySelector("#bmore");
 const bShowMobileLinks = document.querySelector("#bmenu");
