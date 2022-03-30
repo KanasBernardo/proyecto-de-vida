@@ -57,11 +57,13 @@ sr.reveal('.containerTi', {
     distance: '-400px',
 });
 
+
 sr.reveal('.contImgL', {
     duration: 3000,
     origin: 'top',
     distance: '-400px',
 });
+
 
 sr.reveal('.infoL', {
     duration: 3000,
@@ -75,11 +77,13 @@ sr.reveal('.contImgN', {
     distance: '-400px',
 });
 
+
 sr.reveal('.infoNA', {
     duration: 3000,
     origin: 'top',
     distance: '-400px',
 });
+
 
 sr.reveal('.infoSU', {
     duration: 3000,
