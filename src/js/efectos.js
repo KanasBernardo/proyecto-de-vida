@@ -1,5 +1,5 @@
 import "../css/main.css";
-import "./scrollreveal.js";
+import "../js/scrollreveal";
 
 window.sr = ScrollReveal();
 
