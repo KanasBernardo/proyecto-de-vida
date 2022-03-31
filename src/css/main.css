@@ -659,12 +659,14 @@ _________________*/
 AUTORETRATO
 -----------*/
 #autoretrato{
-    display: flex;
     background-image: url(../img/img2.jpg);
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-items: center;
 }
 #autoretrato img{
     padding: 30px;
