@@ -699,6 +699,56 @@ footer{
     font-size: 18px;
 }
 
+/*----------------------------------------*/
+#objetos{
+    background-image: url(../img/img.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-items: center;
+}
+
+#lugar{
+    background-image: url(../img/img7.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-items: center;
+}
+
+.cardimg-card{
+    width: 300px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10%;
+    margin-top: 3%;
+    float: left;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px; 
+}
+.cardimg-card:hover{
+    border-radius: 20px;
+    transition: 1s;
+    background-color: black;
+    color: white;
+}
+.img-card{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.titulos-card{
+    font-family: "Comic Sans MS";
+}
+.cardimg-card p a{
+    display: none;
+}
+/*----------------------------------------*/
+
+
 /*-------------------SECCION RESPONSIVAS 1------------------*/
 @media screen and (max-width: 1621px){
     nav .link-hide{
@@ -1122,5 +1172,8 @@ footer{
     }
     footer img{
         width: 40%;
+    }
+    .cardimg-card p a{
+        display: block;
     }
 }
