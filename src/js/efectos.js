@@ -89,3 +89,9 @@ sr.reveal('.infoSU', {
     origin: 'top',
     distance: '-400px',
 });
+
+sr.reveal('.cardimg-card', {
+    duration: 3000,
+    origin: 'top',
+    distance: '-400px',
+});
